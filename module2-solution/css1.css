@@ -11,9 +11,16 @@ div {
 	border: 1px solid;
 	margin: 2px;
 	padding: 1px;
+	background-color: red;
+	color: white;
 }
-#div1 {
-
+.Para {
+	background-color: white ;
+	color: black;
+}
+.Div1 {
+	text-align: right;
+	background-color: blue;
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	/*Respnsive design for tablet-- Media query1*/
