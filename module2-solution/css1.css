@@ -1,5 +1,21 @@
+* {
+	box-sizing: border-box;
+}
 h1 {
 	color: red;
 	background-color: green;
 	text-align: center;
+}
+div {
+	float: left;
+	border: 1px solid;
+	margin: 2px;
+	padding: 1px;
+}
+#div1 {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Respnsive design for tablet-- Media query1*/
+
 }
