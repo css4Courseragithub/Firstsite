@@ -23,11 +23,13 @@ section {
 	float: right;
 	background-color: blue;
 	color: white;
-	height: 190px;
+	clear: left;
 }
 .p2 {
 	float: bottom-center;
 	border: 1px solid black;
+	overflow: auto;
+	height: 200px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	/*Respnsive design for tablet-- Media query1*/
